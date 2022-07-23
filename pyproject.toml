@@ -5,8 +5,11 @@ description = ""
 authors = ["Lucas Okamura <lucasokamura@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<=3.10"
 pandas = "^1.4.3"
+pingouin = "^0.5.2"
+numpy = "^1.23.1"
+seaborn = "^0.11.2"
 
 [tool.poetry.dev-dependencies]
 
